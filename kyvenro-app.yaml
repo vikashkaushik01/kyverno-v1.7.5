@@ -12,11 +12,9 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
     app: kyverno
   namespace: kyverno
 spec:  
@@ -35,11 +33,9 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
     app: kyverno
   namespace: kyverno
 ---
@@ -50,11 +46,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
   name: kyverno
   namespace: kyverno
@@ -70,11 +66,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
   name: kyverno-metrics
   namespace: kyverno
@@ -4867,11 +4863,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     rbac.authorization.k8s.io/aggregate-to-admin: "true"
     app: kyverno
 rules:
@@ -4896,11 +4892,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     rbac.authorization.k8s.io/aggregate-to-admin: "true"
     app: kyverno
   name: kyverno:admin-policyreport
@@ -4926,11 +4922,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     rbac.authorization.k8s.io/aggregate-to-admin: "true"
     app: kyverno
   name: kyverno:admin-reportchangerequest
@@ -4956,11 +4952,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     rbac.authorization.k8s.io/aggregate-to-admin: "true"
     app: kyverno
   name: kyverno:admin-generaterequest
@@ -4986,11 +4982,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5012,11 +5008,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5068,11 +5064,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5092,11 +5088,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
   - apiGroups:
@@ -5142,11 +5138,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5167,11 +5163,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5196,11 +5192,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5219,11 +5215,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5242,11 +5238,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5265,11 +5261,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5288,11 +5284,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5311,11 +5307,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5335,11 +5331,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 rules:
 - apiGroups:
@@ -5373,11 +5369,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -5396,11 +5392,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
   namespace: kyverno
 spec:
@@ -5423,11 +5419,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
   namespace: kyverno
 spec:
@@ -5450,11 +5446,11 @@ metadata:
   labels: 
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
+    
     app.kubernetes.io/name: kyverno
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
+    
     app: kyverno
   namespace: kyverno
 spec:
@@ -5473,11 +5469,11 @@ spec:
       labels: 
         app.kubernetes.io/component: kyverno
         app.kubernetes.io/instance: kyverno
-        app.kubernetes.io/managed-by: Helm
+        
         app.kubernetes.io/name: kyverno
         app.kubernetes.io/part-of: kyverno
         app.kubernetes.io/version: "v1.4.3"
-        helm.sh/chart: kyverno-v1.4.3
+        
         app: kyverno
     spec:
       imagePullSecrets: 
@@ -5611,13 +5607,9 @@ metadata:
   labels:
     app.kubernetes.io/component: kyverno
     app.kubernetes.io/instance: kyverno
-    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: kyverno-test
     app.kubernetes.io/part-of: kyverno
     app.kubernetes.io/version: "v1.4.3"
-    helm.sh/chart: kyverno-v1.4.3
-  annotations:
-    "helm.sh/hook": test
 spec:
   restartPolicy: Never
   containers:
